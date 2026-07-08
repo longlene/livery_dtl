@@ -1,0 +1,7 @@
+_build/
+_checkouts/
+doc/
+erl_crash.dump
+rebar3.crashdump
+*.beam
+.DS_Store
