@@ -51,9 +51,7 @@ uses; the compiled modules are identical):
 
 ```erlang
 {plugins, [
-    {rebar3_erlydtl_plugin, ".*",
-     {git, "https://github.com/erlydtl/rebar3_erlydtl_plugin.git",
-      {ref, "f1ed9486"}}}
+    rebar3_erlydtl_plugin
 ]}.
 {erlydtl_opts, [{doc_root, "src/views"}]}.
 {provider_hooks, [{pre, [{compile, {erlydtl, compile}}]}]}.
